@@ -13,13 +13,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
-        print("Capital starts with letter 'R'")
+        print("Capital starts with letter 'B'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "A":
+if answer.upper() == "A":
     print("Answer is correct!")
     points += 10
 else:
@@ -37,13 +37,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
-        print("Capital starts with letter 'R'")
+        print("Capital starts with letter 'W'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "C":
+if answer.upper() == "C":
     print("Answer is correct!")
     points += 10
 else:
@@ -61,13 +61,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
-        print("Capital starts with letter 'R'")
+        print("Capital starts with letter 'M'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "B":
+if answer.upper() == "B":
     print("Answer is correct!")
     points += 10
 else:
@@ -85,13 +85,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
-        print("Capital starts with letter 'R'")
+        print("Capital starts with letter 'A'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "D":
+if answer.upper() == "D":
     print("Answer is correct!")
     points += 10
 else:
@@ -100,7 +100,7 @@ print("---------------------------------\n")
 
 #Question 5
 print("What is the capital of the Czech Republic?\n")
-print("(A) Prag")
+print("(A) Prague")
 print("(B) Krumau")
 print("(C) Budweis")
 print("(D) Brenn")
@@ -109,13 +109,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
-        print("Capital starts with letter 'R'")
+        print("Capital starts with letter 'P'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "A":
+if answer.upper() == "A":
     print("Answer is correct!")
     points += 10
 else:
@@ -133,13 +133,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
         print("Capital starts with letter 'R'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "B":
+if answer.upper() == "B":
     print("Answer is correct!")
     points += 10
 else:
@@ -157,13 +157,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
         print("Capital start with letter 'D'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "C":
+if answer.upper() == "C":
     print("Answer is correct!")
     points += 10
 else:
@@ -181,13 +181,13 @@ print("---------------------------------")
 if hintCount > 0:
     getHint = input("Need a hint? [y], [n]: ")
 
-    if getHint.capitalize() == "Y":
+    if getHint.upper() == "Y":
         hintCount -= 1
         print("Capital start with letter 'P'")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "D":
+if answer.upper() == "D":
     print("Answer is correct!")
     points += 10
 else:

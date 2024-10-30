@@ -8,7 +8,7 @@ print("---------------------------------")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "A":
+if answer.upper() == "A":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")
@@ -24,7 +24,7 @@ print("---------------------------------")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "C":
+if answer.upper() == "C":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")
@@ -38,7 +38,7 @@ print("(C) Valencia")
 print("(D) Barcelona")
 print("---------------------------------")
 
-answer.capitalize() = input("Your answer: ")
+answer.upper() = input("Your answer: ")
 
 if answer == "B":
     print("Answer is correct!")
@@ -54,7 +54,7 @@ print("(C) Den Haag")
 print("(D) Amsterdam")
 print("---------------------------------")
 
-answer.capitalize() = input("Your answer: ")
+answer.upper() = input("Your answer: ")
 
 if answer == "D":
     print("Answer is correct!")
@@ -70,7 +70,7 @@ print("(C) Budweis")
 print("(D) Brenn")
 print("---------------------------------")
 
-answer.capitalize() = input("Your answer: ")
+answer.upper() = input("Your answer: ")
 
 if answer == "A":
     print("Answer is correct!")
@@ -88,7 +88,7 @@ print("---------------------------------")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "A":
+if answer.upper() == "A":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")
@@ -104,7 +104,7 @@ print("---------------------------------")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "C":
+if answer.upper() == "C":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")
@@ -120,7 +120,7 @@ print("---------------------------------")
 
 answer = input("Your answer: ")
 
-if answer.capitalize() == "D":
+if answer.upper() == "D":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")
