@@ -38,9 +38,9 @@ print("(C) Valencia")
 print("(D) Barcelona")
 print("---------------------------------")
 
-answer.upper() = input("Your answer: ")
+answer = input("Your answer: ")
 
-if answer == "B":
+if answer.upper() == "B":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")
@@ -54,9 +54,9 @@ print("(C) Den Haag")
 print("(D) Amsterdam")
 print("---------------------------------")
 
-answer.upper() = input("Your answer: ")
+answer = input("Your answer: ")
 
-if answer == "D":
+if answer.upper() == "D":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")
@@ -70,9 +70,9 @@ print("(C) Budweis")
 print("(D) Brenn")
 print("---------------------------------")
 
-answer.upper() = input("Your answer: ")
+answer = input("Your answer: ")
 
-if answer == "A":
+if answer.upper() == "A":
     print("Answer is correct!")
 else:
     print("Answer is incorrect!")

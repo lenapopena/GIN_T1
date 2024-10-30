@@ -2,6 +2,8 @@
 points = 0
 hintCount = 2
 
+print("Welcome to the extended QuizGame!\nIn the extended version 2 hints are granted.\n")
+
 #Question 1
 print("What is the capital of Germany?\n")
 print("(A) Berlin")
