@@ -29,6 +29,6 @@ while True:
 
     again = input("Do you like to play again [y], [n]:\n")
 
-    if again == 'n':
+    if again.lower() == 'n':
         print("Byebye!")
         break
