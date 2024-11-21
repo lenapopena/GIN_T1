@@ -1,0 +1,54 @@
+def showPrices():
+    tickets = {
+        "1": {"ticket": "Single trip", "price": 3.00},
+        "2": {"ticket": "Day ticket", "price": 5.00},
+        "3": {"ticket": "Weekly pass", "price": 25.00},
+        "4": {"ticket": "Monthly pass", "price": 45.00}
+    }
+
+    print("Available Tickets: ")
+
+    for key, ticket in tickets.items():
+        print(f"{key}: {ticket['ticket']} - {ticket['price']} €")
+    return tickets
+
+def calculateRemainingAmount(price, payed):
+    return max(0, price - payed)
+
+def main():
+    print("Im a ticket machine!\n")
+    tickets = showPrices()
+
+    #user choses ticket
+    chooseTicket = input("Choose one of the tickets above! [1], [2], [3], [4]")
+
+    if chooseTicket not in tickets:
+        print("Chosen ticket does not exist! :(")
+        return
+    
+    myticket = tickets[chooseTicket]
+    amount = myticket["price"]
+    print(f"\nYou have chosen '{myticket['ticket']}' for {amount} €")
+
+    #payment
+    payed = 0
+    while payed < amount:
+        print(f"Remaining amount: {calculateRemainingAmount(amount, payed):.2f} €")
+        try:
+            throwIn = float(input("Throw in money: "))
+            if throwIn <= 0:
+                print("Invalid throw in!")
+                continue
+            payed += throwIn
+        except ValueError:
+            print("Invalid throw in!")
+    
+    remainingAmount = payed - amount
+    print("\nThank you, bye!")
+    if remainingAmount > 0:
+        print(f"Please take your change: {remainingAmount:.2f} €")
+    print(f"Your ticket '{myticket['ticket']}' has been printed.")
+    print("Have a good trip!")        
+
+if __name__ == "__main__":
+    main()
